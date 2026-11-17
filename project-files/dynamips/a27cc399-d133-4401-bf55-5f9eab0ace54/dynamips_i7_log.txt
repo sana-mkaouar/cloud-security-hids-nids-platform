@@ -1,0 +1,62 @@
+Oct 03 15:23:15.123 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 03 15:23:15.124 HYPERVISOR: Started on IP = localhost, TCP port = 53773.
+Oct 03 15:23:15.613 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 03 15:23:15.614 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\sana\GNS3\projects\topo 1.0\project-files\dynamips 
+Oct 03 15:23:15.615 GENERAL: working_dir=C:\Users\sana\GNS3\projects\topo 1.0\project-files\dynamips
+Oct 03 15:23:15.615 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\sana\GNS3\projects\topo 1.0\project-files\dynamips\fc5aa956-3e70-4810-9f8b-d9076994b810 
+Oct 03 15:23:15.615 GENERAL: working_dir=C:\Users\sana\GNS3\projects\topo 1.0\project-files\dynamips\fc5aa956-3e70-4810-9f8b-d9076994b810
+Oct 03 15:23:15.615 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Oct 03 15:23:15.618 VM: VM R4 created.
+Oct 03 15:23:15.618 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5016 
+Oct 03 15:23:15.619 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Oct 03 15:23:15.619 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.619 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Oct 03 15:23:15.620 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Oct 03 15:23:15.620 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Oct 03 15:23:15.621 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.621 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x606df838 
+Oct 03 15:23:15.623 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/sana/GNS3/projects/topo 1.0/c7200-adventerprisek9-mz.124-24.T5.image 
+Oct 03 15:23:15.624 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca04.0240.0000 
+Oct 03 15:23:15.624 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Oct 03 15:23:15.625 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Oct 03 15:23:15.625 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.625 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-A1 
+Oct 03 15:23:15.626 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.626 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-FE-TX 
+Oct 03 15:23:15.626 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.626 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Oct 03 15:23:15.627 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.627 HYPERVISOR: exec_cmd: vm slot_add_binding R4 4 0 PA-GE 
+Oct 03 15:23:15.627 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:15.628 HYPERVISOR: exec_cmd: vm slot_add_binding R4 5 0 PA-4T+ 
+Oct 03 15:23:20.594 HYPERVISOR: exec_cmd: nio create_udp udp-5c822745-9109-479a-9b29-b7a3abe8609d 10020 127.0.0.1 10021 
+Oct 03 15:23:20.898 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 3 0 udp-5c822745-9109-479a-9b29-b7a3abe8609d 
+Oct 03 15:23:20.899 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:21.421 HYPERVISOR: exec_cmd: nio create_udp udp-d1935439-668e-43c1-bd65-b4bd263571b6 10042 127.0.0.1 10043 
+Oct 03 15:23:21.423 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-d1935439-668e-43c1-bd65-b4bd263571b6 
+Oct 03 15:23:21.424 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:21.471 HYPERVISOR: exec_cmd: nio create_udp udp-1553823c-8550-47b5-bc56-554763b9b299 10048 127.0.0.1 10049 
+Oct 03 15:23:21.473 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 4 0 udp-1553823c-8550-47b5-bc56-554763b9b299 
+Oct 03 15:23:21.473 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:22.065 HYPERVISOR: exec_cmd: nio create_udp udp-ea931546-c40a-4c63-ac39-35b3152827ae 10060 127.0.0.1 10061 
+Oct 03 15:23:22.068 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-ea931546-c40a-4c63-ac39-35b3152827ae 
+Oct 03 15:23:22.068 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:22.559 HYPERVISOR: exec_cmd: nio create_udp udp-e4972ee5-cfd3-4fb2-8081-84943844b1f8 10080 127.0.0.1 10081 
+Oct 03 15:23:22.561 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 3 1 udp-e4972ee5-cfd3-4fb2-8081-84943844b1f8 
+Oct 03 15:23:22.562 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:32.566 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Oct 03 15:23:32.566 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\sana\GNS3\projects\topo 1.0\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-512.ghost 
+Oct 03 15:23:32.567 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:23:32.624 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Oct 03 15:23:32.625 HYPERVISOR: exec_cmd: vm start R4 
+Oct 03 15:25:42.496 HYPERVISOR: exec_cmd: vm get_status R4 
+Oct 03 15:25:42.496 HYPERVISOR: exec_cmd: vm stop R4 
+Oct 03 15:25:42.731 VM: VM R4 shutdown.
+Oct 03 15:25:42.734 HYPERVISOR: exec_cmd: vm extract_config R4 
+Oct 03 15:26:08.945 HYPERVISOR: exec_cmd: vm rename R4 DC 
+Oct 03 15:39:49.108 HYPERVISOR: exec_cmd: vm set_ghost_status DC 2 
+Oct 03 15:39:49.109 HYPERVISOR: exec_cmd: vm set_ghost_file DC C:\Users\sana\GNS3\projects\topo 1.0\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-512.ghost 
+Oct 03 15:39:49.110 HYPERVISOR: exec_cmd: vm get_status DC 
+Oct 03 15:39:49.142 HYPERVISOR: exec_cmd: vm set_config DC configs\i4_startup-config.cfg 
+Oct 03 15:39:49.146 HYPERVISOR: exec_cmd: vm start DC 
+Oct 03 21:40:15.499 HYPERVISOR: exec_cmd: vm extract_config DC 
