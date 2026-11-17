@@ -144,9 +144,7 @@ The large `project-files/captures/R1_FastEthernet00_to_INTERNET_nat0.pcap` file 
 
 Review any shared screenshots and configuration files for credentials, SIP secrets, private keys and sensitive information before publishing.
 
-## Project contributors
-
-**Kawther Tlili · Arij Bouazizi · Sana Mkaouar**  
+## Project 
 Supervisor: **Mme Imene Elloumi**  
 **ENIT — Université de Tunis El Manar | 2025–2026**
 
